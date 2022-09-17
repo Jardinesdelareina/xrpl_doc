@@ -30,7 +30,7 @@ max_ledger = signed_tx.last_ledger_sequence
 tx_id = signed_tx.get_hash()
 #print('Подписанная транзакция: ', signed_tx)
 #print('Стоимость сделки (комиссия): ', xrpl.utils.drops_to_xrp(signed_tx.fee), 'XRP')
-#print('Экспирация транзакции истекает после: ', max_ledger)
+#print('Экспирация транзакции наступает после: ', max_ledger)
 #print('Идентифицирующий хэш: ', tx_id)
 
 ''' Отправка транзакции в сеть и проверка ее статуса
